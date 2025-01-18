@@ -89,10 +89,10 @@
 
         Numbers_Navigation {
             bindings = <
-&none                 &kp NUMBER_9      &kp NUMBER_8          &kp NUMBER_7        &kp MINUS                      &kp C_BRI_UP  &kp C_MUTE             &kp C_VOLUME_DOWN      &kp C_VOLUME_UP       &none
-&hrm LEFT_CONTROL N0  &hrm LEFT_ALT N1  &hrm LEFT_COMMAND N2  &hrm LEFT_SHIFT N1  &kp PLUS                       &kp LEFT      &hrm RIGHT_SHIFT DOWN  &hrm RIGHT_COMMAND UP  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
-&none                 &kp NUMBER_6      &kp NUMBER_5          &kp NUMBER_4        &kp STAR                       &kp C_BRI_DN  &kp C_PREV             &kp C_PP               &kp C_NEXT            &none
-                                                              &none               &none      &none    &kp ENTER  &mo 2         &kp BSPC
+&none                 &kp N7            &kp NUMBER_8          &kp N9                    &kp MINUS                      &kp C_BRI_UP  &kp C_MUTE             &kp C_VOLUME_DOWN      &kp C_VOLUME_UP       &none
+&hrm LEFT_CONTROL N0  &hrm LEFT_ALT N1  &hrm LEFT_COMMAND N2  &hrm LEFT_SHIFT NUMBER_3  &kp PLUS                       &kp LEFT      &hrm RIGHT_SHIFT DOWN  &hrm RIGHT_COMMAND UP  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
+&none                 &kp NUMBER_4      &kp NUMBER_5          &kp NUMBER_6              &kp STAR                       &kp C_BRI_DN  &kp C_PREV             &kp C_PP               &kp C_NEXT            &none
+                                                              &none                     &none      &none    &kp ENTER  &mo 2         &kp BSPC
             >;
 
             label = "numb_nav_layer";
