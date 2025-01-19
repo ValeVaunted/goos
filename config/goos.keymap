@@ -80,10 +80,10 @@
 
         Numbers_Navigation {
             bindings = <
-&kp MINUS     &mt SLASH N7         &mt LEFT_PARENTHESIS N8     &mt RIGHT_PARENTHESIS N9  &kp PLUS                        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &none
-&mt EQUAL N0  &mt EXCLAMATION N1   &mt DOUBLE_QUOTES NUMBER_2  &mt HASH NUMBER_3         &none                           &kp LEFT           &hrm RIGHT_SHIFT LEFT  &hrm RIGHT_COMMAND DOWN  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
-&none         &mt DOLLAR NUMBER_4  &mt PERCENT N5              &mt AMPERSAND NUMBER_6    &none                           &kp C_BRI_DN       &kp C_PREV             &kp C_PP                 &kp C_NEXT            &kp C_BRIGHTNESS_INC
-                                                               &kp SPACE                 &tog 2    &kp TAB    &kp ENTER  &lt 1 ESCAPE       &kp BSPC
+&kp MINUS             &kp N7            &kp N8                      &kp N9                    &kp PLUS                        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &none
+&hrm LEFT_CONTROL N0  &hrm LEFT_ALT N1  &hrm LEFT_COMMAND NUMBER_2  &hrm LEFT_SHIFT NUMBER_3  &none                           &kp LEFT           &hrm RIGHT_SHIFT LEFT  &hrm RIGHT_COMMAND DOWN  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
+&none                 &kp NUMBER_4      &kp N5                      &kp NUMBER_6              &none                           &kp C_BRI_DN       &kp C_PREV             &kp C_PP                 &kp C_NEXT            &kp C_BRIGHTNESS_INC
+                                                                    &kp SPACE                 &tog 2    &kp TAB    &kp ENTER  &lt 1 ESCAPE       &kp BSPC
             >;
 
             label = "numb_nav_layer";
