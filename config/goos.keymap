@@ -69,10 +69,10 @@
 
         Symbol {
             bindings = <
-&none                          &kp SINGLE_QUOTE             &kp DOLLAR               &kp AMPERSAND               &kp CARET                    &none          &kp POUND              &kp LEFT_BRACKET          &kp RIGHT_BRACKET                 &none
-&hrm LEFT_CONTROL EXCLAMATION  &hrm LEFT_ALT DOUBLE_QUOTES  &hrm LEFT_COMMAND MINUS  &hrm LEFT_SHIFT UNDERSCORE  &kp PLUS                     &kp PLUS       &hrm RIGHT_SHIFT PLUS  &hrm RIGHT_COMMAND MINUS  &hrm RIGHT_ALT RIGHT_PARENTHESIS  &hrm RIGHT_CONTROL PERCENT
-&none                          &kp GRAVE                    &kp PIPE                 &kp EQUAL                   &kp TILDE                    &kp BACKSLASH  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS     &mt RIGHT_BRACE LEFT_BRACE        &mt RIGHT_BRACKET LEFT_BRACKET
-                                                                                     &kp ESC                     &mo 2      &kp TAB    &none  &none          &none
+&kp CARET                  &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES                       &none                        &none      &none                  &none                     &none                    &none
+&hrm LEFT_CONTROL PERCENT  &hrm LEFT_ALT AMPERSAND     &hrm LEFT_COMMAND EXCLAMATION   &hrm LEFT_SHIFT QUESTION                &kp TILDE                    &kp EQUAL  &hrm RIGHT_SHIFT PLUS  &hrm RIGHT_COMMAND MINUS  &hrm RIGHT_ALT ASTERISK  &hrm RIGHT_CONTROL SLASH
+&kp BACKSLASH              &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp PIPE                     &none      &none                  &kp COMMA                 &kp PERIOD               &none
+                                                                                       &kp ESC                                 &mo 2      &kp TAB    &none  &none      &none
             >;
 
             label = "symbol_layer";
