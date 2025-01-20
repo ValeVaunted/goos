@@ -61,7 +61,7 @@
 
         Permanent_Num {
             bindings = <&tog 2>;
-            key-positions = <31 34>;
+            key-positions = <33 32>;
         };
     };
 
