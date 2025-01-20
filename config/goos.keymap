@@ -81,7 +81,7 @@
             bindings = <
 &kp CARET                  &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES                       &none                                   &none      &none                  &none                     &none                    &none
 &hrm LEFT_CONTROL PERCENT  &hrm LEFT_ALT AMPERSAND     &hrm LEFT_COMMAND EXCLAMATION   &hrm LEFT_SHIFT QUESTION                &kp TILDE                               &kp EQUAL  &hrm RIGHT_SHIFT PLUS  &hrm RIGHT_COMMAND MINUS  &hrm RIGHT_ALT ASTERISK  &hrm RIGHT_CONTROL SLASH
-&kp BACKSLASH              &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp PIPE                                &none      &none                  &kp COMMA                 &kp PERIOD               &none
+&kp BACKSLASH              &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp PIPE                                &none      &none                  &kp COMMA                 &kp PERIOD               &kp SEMICOLON
                                                                                        &kp SPACE                               &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none      &kp BACKSPACE
             >;
 
