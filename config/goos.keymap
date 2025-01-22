@@ -63,6 +63,11 @@
             bindings = <&tog 2>;
             key-positions = <33 32>;
         };
+
+        HyperKey {
+            bindings = <&sk LS(LA(LC(RIGHT_COMMAND)))>;
+            key-positions = <13 16>;
+        };
     };
 
     keymap {
