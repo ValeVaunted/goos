@@ -72,17 +72,17 @@
             bindings = <
 &kp Q                &kp W            &kp F                &kp P              &kp B                                   &kp J         &kp L               &kp U                 &kp Z             &mt EXCLAMATION QUESTION
 &hrm LEFT_CONTROL A  &hrm LEFT_ALT R  &hrm LEFT_COMMAND S  &hrm LEFT_SHIFT T  &kp G                                   &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_COMMAND E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL O
-&kp Y                &kp X            &kp C                &kp D              &kp V                                   &kp K         &kp H               &kp COMMA             &kp DOT           &kp SEMICOLON
+&kp Y                &kp X            &kp C                &kp D              &kp V                                   &kp K         &kp H               &kp COMMA             &kp DOT           &kp LESS_THAN
                                                            &kp SPACE          &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE  &kp BSPC
             >;
         };
 
         Symbol {
             bindings = <
-&kp CARET                  &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES                       &none                                   &none      &none                  &none                     &none                    &none
-&hrm LEFT_CONTROL PERCENT  &hrm LEFT_ALT AMPERSAND     &hrm LEFT_COMMAND EXCLAMATION   &hrm LEFT_SHIFT QUESTION                &kp TILDE                               &kp EQUAL  &hrm RIGHT_SHIFT PLUS  &hrm RIGHT_COMMAND MINUS  &hrm RIGHT_ALT ASTERISK  &hrm RIGHT_CONTROL SLASH
-&kp BACKSLASH              &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp PIPE                                &none      &none                  &kp COMMA                 &kp PERIOD               &kp SEMICOLON
-                                                                                       &kp SPACE                               &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none      &kp BACKSPACE
+&kp CARET                  &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES                       &kp TILDE                                 &none      &kp SEMICOLON          &kp SQT                   &kp LEFT_BRACKET         &none
+&hrm LEFT_CONTROL PERCENT  &hrm LEFT_ALT AMPERSAND     &hrm LEFT_COMMAND EXCLAMATION   &hrm LEFT_SHIFT QUESTION                &kp AT_SIGN                               &kp EQUAL  &hrm RIGHT_SHIFT PLUS  &hrm RIGHT_COMMAND MINUS  &hrm RIGHT_ALT ASTERISK  &hrm RIGHT_CONTROL SLASH
+&kp BACKSLASH              &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp PIPE                                  &none      &none                  &kp COMMA                 &kp PERIOD               &kp SEMICOLON
+                                                                                       &kp SPACE                               &lt 2 TAB    &kp LEFT_SHIFT    &kp ENTER  &none      &kp BACKSPACE
             >;
 
             label = "symbol_layer";
