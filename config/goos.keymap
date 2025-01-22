@@ -70,9 +70,9 @@
 
         alpha_colemak_dh {
             bindings = <
-&kp Q                &kp W            &kp F                &kp P              &kp B                                   &kp J         &kp L               &kp U                 &kp Z             &mt EXCLAMATION MINUS
+&kp Q                &kp W            &kp F                &kp P              &kp B                                   &kp J         &kp L               &kp U                 &kp Y             &mt EXCLAMATION MINUS
 &hrm LEFT_CONTROL A  &hrm LEFT_ALT R  &hrm LEFT_COMMAND S  &hrm LEFT_SHIFT T  &kp G                                   &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_COMMAND E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL O
-&kp Y                &kp X            &kp C                &kp D              &kp V                                   &kp K         &kp H               &kp COMMA             &kp DOT           &kp LESS_THAN
+&kp Z                &kp X            &kp C                &kp D              &kp V                                   &kp K         &kp H               &kp COMMA             &kp DOT           &kp LESS_THAN
                                                            &kp SPACE          &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE  &kp BSPC
             >;
         };
