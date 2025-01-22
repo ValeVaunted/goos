@@ -20,16 +20,6 @@
         };
     };
 
-&sl {
-    release-after-ms = <2000>;
-};
-
-/ {
-    keymap {
-        ...
-    };
-};
-
     behaviors {
         hrm: home_row_mods {
             compatible = "zmk,behavior-hold-tap";
