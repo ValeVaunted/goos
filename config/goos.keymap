@@ -79,10 +79,10 @@
 
         Symbol {
             bindings = <
-&kp CARET                           &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES                       &none                                   &none  &none                       &none                   &none                        &none
-&hrm LEFT_CONTROL NON_US_BACKSLASH  &hrm LEFT_ALT PERCENT       &hrm LEFT_COMMAND CARET         &hrm LEFT_SHIFT AT_SIGN                 &kp TILDE                               &none  &hrm RIGHT_SHIFT SEMICOLON  &hrm RIGHT_COMMAND SQT  &hrm RIGHT_ALT LEFT_BRACKET  &hrm RIGHT_CONTROL SLASH
-&kp PIPE                            &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none                                   &none  &none                       &none                   &none                        &none
-                                                                                                &kp SPACE                               &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none  &kp BACKSPACE
+&kp CARET                     &kp DOLLAR                  &kp SQT                         &kp DOUBLE_QUOTES              &none                                   &none  &none                       &none                   &none                        &none
+&hrm LEFT_CONTROL LS(LA(N7))  &hrm LEFT_ALT PERCENT       &hrm LEFT_COMMAND CARET         &hrm LEFT_SHIFT AT             &kp TILDE                               &none  &hrm RIGHT_SHIFT SEMICOLON  &hrm RIGHT_COMMAND SQT  &hrm RIGHT_ALT LEFT_BRACKET  &hrm RIGHT_CONTROL SLASH
+&kp PIPE                      &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &mt LEFT_PARENTHESIS ASTERISK  &none                                   &none  &none                       &none                   &none                        &none
+                                                                                          &kp SPACE                      &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none  &kp BACKSPACE
             >;
 
             label = "symbol_layer";
