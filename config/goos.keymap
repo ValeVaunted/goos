@@ -97,7 +97,7 @@
 
         Numbers_Navigation {
             bindings = <
-&none                 &none                   &none                       &none                     &none                                      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &none
+&none                 &none                   &none                       &none                     &none                                      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &kp K_SLEEP
 &hrm LEFT_CONTROL N5  &hrm LEFT_ALT NUMBER_4  &hrm LEFT_COMMAND NUMBER_3  &hrm LEFT_SHIFT NUMBER_2  &kp NUMBER_1                               &kp LEFT           &hrm RIGHT_SHIFT LEFT  &hrm RIGHT_COMMAND DOWN  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
 &kp N0                &kp N9                  &kp N8                      &kp N7                    &kp NUMBER_6                               &kp SLASH          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET        &kp RIGHT_BRACE       &kp AMPERSAND
                                                                           &kp SPACE                 &none         &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE       &kp BSPC
