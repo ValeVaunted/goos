@@ -10,7 +10,7 @@
 
 &lt { flavor = "hold-preferred"; };
 
-&sk { release-after-ms = <4000>; };
+&sk { release-after-ms = <2000>; };
 
 / {
     conditional_layers {
@@ -77,19 +77,19 @@
 
         alpha_colemak_dh {
             bindings = <
-&kp Q                &kp W            &kp F                &kp P              &kp B                                   &kp J         &kp L               &kp U                 &kp Y             &mt EXCLAMATION MINUS
-&hrm LEFT_CONTROL A  &hrm LEFT_ALT R  &hrm LEFT_COMMAND S  &hrm LEFT_SHIFT T  &kp G                                   &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_COMMAND E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL O
-&kp Z                &kp X            &kp C                &kp D              &kp V                                   &kp K         &kp H               &kp COMMA             &kp DOT           &kp GRAVE
-                                                           &kp SPACE          &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE  &kp BSPC
+&kp Q                &kp W            &kp F                &kp P              &kp B                      &kp J        &kp L               &kp U                 &kp Y             &mt EXCLAMATION MINUS
+&hrm LEFT_CONTROL A  &hrm LEFT_ALT R  &hrm LEFT_COMMAND S  &hrm LEFT_SHIFT T  &kp G                      &kp M        &hrm RIGHT_SHIFT N  &hrm RIGHT_COMMAND E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL O
+&kp Z                &kp X            &kp C                &kp D              &kp V                      &kp K        &kp H               &kp COMMA             &kp DOT           &kp GRAVE
+                                                           &kp SPACE          &lt 2 TAB  &none    &none  &lt 1 ENTER  &kp BSPC
             >;
         };
 
         Symbol {
             bindings = <
-&kp LA(LS(NUMBER_6))          &kp DOLLAR             &kp PIPE                 &kp LS(NUMBER_2)       &none                                   &kp B  &none                       &none                   &none                        &none
-&hrm LEFT_CONTROL LS(LA(N7))  &hrm LEFT_ALT PERCENT  &hrm LEFT_COMMAND CARET  &hrm LEFT_SHIFT LA(L)  &kp LA(N)                               &none  &hrm RIGHT_SHIFT SEMICOLON  &hrm RIGHT_COMMAND SQT  &hrm RIGHT_ALT LEFT_BRACKET  &hrm RIGHT_CONTROL SLASH
-&kp LA(N7)                    &mt LA(N9) LA(N8)      &mt LA(NUMBER_6) LA(N5)  &mt LS(N9) LS(N8)      &none                                   &none  &none                       &none                   &none                        &none
-                                                                              &kp SPACE              &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none  &kp BACKSPACE
+&kp LA(LS(NUMBER_6))          &kp DOLLAR             &kp PIPE                 &kp LS(NUMBER_2)       &none                                   &none          &none                       &none                   &none                        &none
+&hrm LEFT_CONTROL LS(LA(N7))  &hrm LEFT_ALT PERCENT  &hrm LEFT_COMMAND CARET  &hrm LEFT_SHIFT LA(L)  &kp LA(N)                               &none          &hrm RIGHT_SHIFT SEMICOLON  &hrm RIGHT_COMMAND SQT  &hrm RIGHT_ALT LEFT_BRACKET  &hrm RIGHT_CONTROL SLASH
+&kp LA(N7)                    &mt LA(N9) LA(N8)      &mt LA(NUMBER_6) LA(N5)  &mt LS(N9) LS(N8)      &none                                   &kp C_BRI_DEC  &kp C_PREVIOUS              &kp C_PLAY_PAUSE        &kp C_NEXT                   &kp C_BRI_UP
+                                                                              &kp SPACE              &lt 2 TAB  &kp LEFT_SHIFT    &kp ENTER  &none          &kp BACKSPACE
             >;
 
             label = "symbol_layer";
@@ -97,10 +97,10 @@
 
         Numbers_Navigation {
             bindings = <
-&kp AMPERSAND         &kp RIGHT_BRACE         &kp RIGHT_BRACKET           &kp SLASH                 &kp RIGHT_PARENTHESIS                               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &none
-&hrm LEFT_CONTROL N5  &hrm LEFT_ALT NUMBER_4  &hrm LEFT_COMMAND NUMBER_3  &hrm LEFT_SHIFT NUMBER_2  &kp NUMBER_1                                        &kp LEFT           &hrm RIGHT_SHIFT LEFT  &hrm RIGHT_COMMAND DOWN  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
-&kp N0                &kp N9                  &kp N8                      &kp N7                    &kp NUMBER_6                                        &kp C_BRI_DN       &kp C_PREV             &kp C_PP                 &kp C_NEXT            &kp C_BRIGHTNESS_INC
-                                                                          &kp SPACE                 &none                  &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE       &kp BSPC
+&kp AMPERSAND         &kp RIGHT_BRACE         &kp RIGHT_BRACKET           &kp SLASH                 &kp RIGHT_PARENTHESIS                               &kp C_VOLUME_DOWN      &kp C_VOLUME_UP        &kp UP_ARROW             &kp K_MUTE            &none
+&hrm LEFT_CONTROL N5  &hrm LEFT_ALT NUMBER_4  &hrm LEFT_COMMAND NUMBER_3  &hrm LEFT_SHIFT NUMBER_2  &kp NUMBER_1                                        &kp LEFT               &hrm RIGHT_SHIFT LEFT  &hrm RIGHT_COMMAND DOWN  &hrm RIGHT_ALT RIGHT  &kp RIGHT_CONTROL
+&kp N0                &kp N9                  &kp N8                      &kp N7                    &kp NUMBER_6                                        &kp RIGHT_PARENTHESIS  &kp SLASH              &kp RIGHT_BRACKET        &kp RIGHT_BRACE       &kp AMPERSAND
+                                                                          &kp SPACE                 &none                  &kp LEFT_SHIFT    &kp ENTER  &lt 1 ESCAPE           &kp BSPC
             >;
 
             label = "numb_nav_layer";
